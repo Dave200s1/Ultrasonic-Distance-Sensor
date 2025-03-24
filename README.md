@@ -8,7 +8,7 @@
 
 ![npm bundle size (version)](https://img.shields.io/badge/version-0.0.1-darkblue)  ![npm bundle size (version)](https://img.shields.io/badge/language-c++-red)  ![npm bundle size (version)](https://img.shields.io/badge/framework-arduino-lightblue) 
 ## Overview
-The project demonstrates effective integration of sensor input and graphical output, providing a foundation for IoT applications, robotics distance sensing, or industrial monitoring systems. The code is optimized for reliability and can be easily extended with additional features.
+This project demonstrates distance measurement using an Arduino Uno board in a simulator environment, combining an HC-SR04 ultrasonic sensor with a 128×64 OLED display. It calculates real-time distances (2-400cm range) and displays results continuously, showcasing practical integration of sensor input and graphical output. While primarily designed for simulated operation, the core implementation can be adapted to physical hardware with proper calibration.
 
 **Important Note:** 
 Please note that the measured values may not be 100% accurate as this project was developed in a simulator environment. 
