@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -9, "left": -0.6, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -161.7, "left": 43.9, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 243.14,
+      "left": -86.17,
+      "attrs": { "i2cAddress": "0x3c" }
+    }
+  ],
+  "connections": [
+    [ "oled1:GND", "uno:GND.2", "black", [ "v-38.4", "h217.5" ] ],
+    [ "oled1:VCC", "uno:5V", "red", [ "v-9.6", "h198.55" ] ],
+    [ "oled1:SCL", "uno:A5", "green", [ "v-19.2", "h284.6" ] ],
+    [ "oled1:SDA", "uno:A4", "yellow", [ "v-28.8", "h265.27" ] ],
+    [ "ultrasonic1:GND", "uno:GND.1", "black", [ "v48", "h-30", "v28.2" ] ],
+    [ "ultrasonic1:TRIG", "uno:13", "green", [ "v0" ] ],
+    [ "ultrasonic1:ECHO", "uno:12", "yellow", [ "v0" ] ],
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "h-153.6", "v268.8", "h197.8" ] ]
+  ],
+  "dependencies": {}
+}
