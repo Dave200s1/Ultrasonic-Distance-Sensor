@@ -11,8 +11,7 @@
 The project demonstrates effective integration of sensor input and graphical output, providing a foundation for IoT applications, robotics distance sensing, or industrial monitoring systems. The code is optimized for reliability and can be easily extended with additional features.
 
 **Important Note:** 
-When connecting to WiFi keep in mind that this project utilizes the Wokwi environment , if you implement this on a bare-metal machine, use your own ssid and password. Furthermore
-if you want to display other currencies feel free to do so, CoinGecko supports various currencies.
+Please note that the measured values may not be 100% accurate as this project was developed in a simulator environment. 
 
 ## Used Technologie
 
