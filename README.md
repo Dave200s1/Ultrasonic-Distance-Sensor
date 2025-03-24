@@ -29,6 +29,9 @@ Please note that the measured values may not be 100% accurate as this project wa
 - Arduino Uno board
 - Wokwi License (community)
 - Basic knowledge of C++ programming
+
+## Datasheet
+- Ultrasonic Ranging Module ( [HCSR04.pdf](https://github.com/Dave200s1/Ultrasonic-Distance-Sensor/blob/main/HCSR04.pdf) )
   
 ## Icons
   * https://www.flaticon.com/free-icon/sensor_2540167?term=sensor&page=1&position=29&origin=search&related_id=2540167
